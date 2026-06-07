@@ -12,10 +12,10 @@ export default function Home() {
   const [appPortalOpen, setAppPortalOpen] = useState(false);
 
   const stats = [
-    { id: 1, label: 'Rural Students Uplifted', count: '2,000+', icon: <Users size={28} /> },
-    { id: 2, label: 'Experienced Faculty', count: '50+', icon: <GraduationCap size={28} /> },
-    { id: 3, label: 'UG & PG Courses', count: '11', icon: <BookOpen size={28} /> },
-    { id: 4, label: 'Placement Rate', count: '85%+', icon: <Briefcase size={28} /> }
+    { id: 1, label: 'Rural Students Uplifted', count: '1,500+', icon: <Users size={28} /> },
+    { id: 2, label: 'Official Faculty', count: '12', icon: <GraduationCap size={28} /> },
+    { id: 3, label: 'Undergraduate Courses', count: '5', icon: <BookOpen size={28} /> },
+    { id: 4, label: 'Placement Assistance', count: '85%+', icon: <Briefcase size={28} /> }
   ];
 
   return (
@@ -38,7 +38,7 @@ export default function Home() {
             }}>
               Government Institution
             </span>
-            <h1 style={{ color: '#ffffff', fontFamily: 'var(--font-heading)', fontWeight: 800, fontSize: '3rem', lineHeight: '1.1', marginBottom: '1rem' }}>
+            <h1 className="hero-title" style={{ color: '#ffffff', fontFamily: 'var(--font-heading)', fontWeight: 800, marginBottom: '1rem' }}>
               Empowering Rural Youth through Quality Education
             </h1>
             <p style={{ color: 'var(--slate-200)', fontSize: '1.1rem', marginBottom: '2rem', lineHeight: '1.6' }}>
@@ -63,7 +63,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+ 
       {/* 2. Welcome & Notice Board Grid */}
       <section className="section-padding" style={{ backgroundColor: 'var(--bg-primary)' }}>
         <div className="container">
@@ -73,7 +73,7 @@ export default function Home() {
               <span style={{ color: 'var(--primary)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1px', fontSize: '0.85rem', marginBottom: '0.5rem' }}>
                 அரசு கலை மற்றும் அறிவியல் கல்லூரி, தரகாம்பட்டி
               </span>
-              <h2 style={{ fontFamily: 'var(--font-heading)', fontWeight: 800, marginBottom: '1.5rem', fontSize: '2.2rem', color: 'var(--slate-900)' }}>
+              <h2 className="section-title" style={{ fontFamily: 'var(--font-heading)', fontWeight: 800, marginBottom: '1.5rem', color: 'var(--slate-900)' }}>
                 அறிவே ஆற்றல் • Nurturing Minds, Shaping Futures since 2020
               </h2>
               <p style={{ marginBottom: '1rem', fontSize: '1rem', color: 'var(--slate-700)', lineHeight: '1.7' }}>
@@ -101,14 +101,14 @@ export default function Home() {
                   <span style={{ fontWeight: 600, fontSize: '0.9rem' }}>NSS & Youth Red Cross</span>
                 </div>
               </div>
-
+ 
               <div>
                 <Link to="/about" className="btn btn-primary">
                   Learn More About Us <ArrowRight size={16} />
                 </Link>
               </div>
             </div>
-
+ 
             {/* Right: Scrolling Notice Board */}
             <div>
               <NoticeBoard />
@@ -116,7 +116,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+ 
       {/* 3. Stats Section */}
       <section style={{ backgroundColor: 'var(--primary)', color: '#ffffff', padding: '3.5rem 0' }}>
         <div className="container">
@@ -142,7 +142,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+ 
       {/* 4. Principal message preview */}
       <section className="section-padding" style={{ backgroundColor: '#ffffff' }}>
         <div className="container">
@@ -170,7 +170,7 @@ export default function Home() {
                 <span style={{ color: 'var(--primary)', fontWeight: 700, fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '1.2px' }}>
                   Leadership Desk
                 </span>
-                <h2 style={{ fontFamily: 'var(--font-heading)', fontWeight: 800, fontSize: '2rem', marginBottom: '1.25rem', color: 'var(--slate-900)' }}>
+                <h2 className="section-title" style={{ fontFamily: 'var(--font-heading)', fontWeight: 800, marginBottom: '1.25rem', color: 'var(--slate-900)' }}>
                   Principal's Message
                 </h2>
                 <div style={{ position: 'relative', paddingLeft: '1.5rem', borderLeft: '3px solid var(--secondary)', fontStyle: 'italic', marginBottom: '1.5rem', color: 'var(--slate-600)' }}>
@@ -184,7 +184,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+ 
       {/* 5. Departments grid overview */}
       <section className="section-padding" style={{ backgroundColor: 'var(--bg-primary)' }}>
         <div className="container">
@@ -192,22 +192,21 @@ export default function Home() {
             <span style={{ color: 'var(--primary)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1px', fontSize: '0.85rem' }}>
               Academic Offerings
             </span>
-            <h2 style={{ fontFamily: 'var(--font-heading)', fontWeight: 800, fontSize: '2.2rem', marginTop: '0.5rem' }}>
+            <h2 className="section-title" style={{ fontFamily: 'var(--font-heading)', fontWeight: 800, marginTop: '0.5rem' }}>
               Explore Our Departments
             </h2>
             <p style={{ color: 'var(--slate-500)', maxWidth: '600px', margin: '0.5rem auto 0' }}>
               Choose from our diverse streams of Arts, Science, and Commerce designed to secure a prosperous career.
             </p>
           </div>
-
+ 
           <div className="grid-3">
             {[
-              { title: 'Computer Science', desc: 'Study coding, algorithms, web design, and database systems with advanced computer labs.', link: '/departments', count: 'UG & PG' },
+              { title: 'Computer Science', desc: 'Study coding, algorithms, web design, and database systems with advanced computer labs.', link: '/departments', count: 'UG' },
               { title: 'Mathematics', desc: 'Analytical knowledge in pure and applied mathematics, algebra, calculus and statistics.', link: '/departments', count: 'UG' },
-              { title: 'Physics', desc: 'Explore mechanics, optics, electronics, and thermodynamics in modern laboratories.', link: '/departments', count: 'UG' },
-              { title: 'Chemistry', desc: 'Inorganic, organic, and physical chemistry theory and laboratory research experiments.', link: '/departments', count: 'UG' },
-              { title: 'Commerce', desc: 'Comprehensive studies in accountancy, business law, banking, and commercial audits.', link: '/departments', count: 'UG & PG' },
-              { title: 'Business Administration (BBA)', desc: 'Corporate management principles, human resource administration, marketing, and business strategy.', link: '/departments', count: 'UG' }
+              { title: 'Commerce', desc: 'Comprehensive studies in accountancy, business law, banking, and commercial audits.', link: '/departments', count: 'UG' },
+              { title: 'Tamil', desc: 'Study history, literature, grammar, and traditional linguistics of the Tamil language.', link: '/departments', count: 'UG' },
+              { title: 'English', desc: 'Develop language proficiency, communication skills, and critical study of English literature.', link: '/departments', count: 'UG' }
             ].map((dept, index) => (
               <div key={index} className="glass-card" style={{ padding: '2rem', display: 'flex', flexDirection: 'column', height: '100%' }}>
                 <span style={{ alignSelf: 'flex-start', backgroundColor: 'var(--primary-light)', color: 'var(--primary)', padding: '0.2rem 0.6rem', borderRadius: '4px', fontSize: '0.75rem', fontWeight: 700, marginBottom: '1rem' }}>
@@ -225,10 +224,10 @@ export default function Home() {
               </div>
             ))}
           </div>
-
+ 
           <div style={{ textAlign: 'center', marginTop: '3rem' }}>
             <Link to="/courses" className="btn btn-primary">
-              View All 11 Courses & Eligibility
+              View All 5 Courses & Eligibility
             </Link>
           </div>
         </div>
@@ -242,7 +241,7 @@ export default function Home() {
               <span style={{ color: 'var(--primary)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1px', fontSize: '0.85rem' }}>
                 Life at Campus
               </span>
-              <h2 style={{ fontFamily: 'var(--font-heading)', fontWeight: 800, fontSize: '2.2rem', marginTop: '0.5rem' }}>
+              <h2 className="section-title" style={{ fontFamily: 'var(--font-heading)', fontWeight: 800, marginTop: '0.5rem' }}>
                 Latest Events & Activities
               </h2>
             </div>
@@ -288,7 +287,7 @@ export default function Home() {
             <span style={{ color: 'var(--primary)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1px', fontSize: '0.85rem' }}>
               Visual Highlights
             </span>
-            <h2 style={{ fontFamily: 'var(--font-heading)', fontWeight: 800, fontSize: '2.2rem', marginTop: '0.5rem' }}>
+            <h2 className="section-title" style={{ fontFamily: 'var(--font-heading)', fontWeight: 800, marginTop: '0.5rem' }}>
               Photo Gallery
             </h2>
           </div>
