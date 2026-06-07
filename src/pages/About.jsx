@@ -3,7 +3,7 @@ import { Award, Compass, ShieldCheck, Target, Users } from 'lucide-react';
 
 export default function About() {
   const council = [
-    { name: 'Dr. M. Hema Nalini', role: 'Chairman (Principal of the College)', credential: 'M.Com., M.Phil., B.Ed., SLET, Ph.D.' },
+    { name: 'Mr. Bala subramaniyam', role: 'Chairman (Principal of the College)', credential: 'M.A., M.Phil., NET, Ph.D.' },
     { name: 'District Collector, Karur', role: 'Honorary Patron', credential: 'I.A.S.' },
     { name: 'Mr. R. Manivasagan', role: 'Member Secretary (HOD Computer Science)', credential: 'M.C.A., M.Phil.' },
     { name: 'Dr. J. Sathiyaraj', role: 'Senior Faculty Member (HOD Mathematics)', credential: 'M.Sc., M.Phil., Ph.D., B.Ed., SET' },

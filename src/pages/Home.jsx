@@ -151,7 +151,7 @@ export default function Home() {
               <div style={{ textAlign: 'center' }}>
                 <img 
                   src="/assets/principal_portrait.png" 
-                  alt="Principal Dr. M. Hema Nalini" 
+                  alt="Principal Mr. Bala subramaniyam" 
                   style={{
                     width: '240px',
                     height: '240px',
@@ -162,9 +162,9 @@ export default function Home() {
                     marginBottom: '1rem'
                   }}
                 />
-                <h4 style={{ fontSize: '1.15rem', fontWeight: 700, color: 'var(--slate-900)' }}>Dr. M. Hema Nalini</h4>
+                <h4 style={{ fontSize: '1.15rem', fontWeight: 700, color: 'var(--slate-900)' }}>Mr. Bala subramaniyam</h4>
                 <p style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--primary)' }}>Principal</p>
-                <p style={{ fontSize: '0.75rem', color: 'var(--slate-400)' }}>M.Com., M.Phil., B.Ed., SLET, Ph.D.</p>
+                <p style={{ fontSize: '0.75rem', color: 'var(--slate-400)' }}>M.A., M.Phil., NET, Ph.D.</p>
               </div>
               <div>
                 <span style={{ color: 'var(--primary)', fontWeight: 700, fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '1.2px' }}>

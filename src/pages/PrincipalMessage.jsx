@@ -12,7 +12,7 @@ export default function PrincipalMessage() {
               Principal's Message
             </h1>
             <p style={{ color: 'var(--slate-200)' }}>
-              A warm welcome from the leadership desk of Dr. M. Hema Nalini
+              A warm welcome from the leadership desk of Mr. Bala subramaniyam
             </p>
           </div>
         </div>
@@ -26,7 +26,7 @@ export default function PrincipalMessage() {
             <div className="glass-card" style={{ padding: '2rem', position: 'sticky', top: '100px', textAlign: 'center' }}>
               <img 
                 src="/assets/principal_portrait.png" 
-                alt="Principal Dr. M. Hema Nalini" 
+                alt="Principal Mr. Bala subramaniyam" 
                 style={{
                   width: '100%',
                   maxHeight: '320px',
@@ -37,13 +37,13 @@ export default function PrincipalMessage() {
                 }}
               />
               <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.3rem', fontWeight: 800, color: 'var(--slate-900)' }}>
-                Dr. M. Hema Nalini
+                Mr. Bala subramaniyam
               </h3>
               <p style={{ color: 'var(--primary)', fontWeight: 700, fontSize: '0.9rem', marginBottom: '0.5rem' }}>
                 Principal
               </p>
               <span style={{ fontSize: '0.8rem', backgroundColor: 'var(--primary-light)', color: 'var(--primary)', padding: '0.2rem 0.6rem', borderRadius: '4px', fontWeight: 600 }}>
-                M.Com., M.Phil., B.Ed., SLET, Ph.D.
+                M.A., M.Phil., NET, Ph.D.
               </span>
 
               <div style={{ borderTop: '1px solid var(--border-color)', marginTop: '1.5rem', paddingTop: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.75rem', textAlign: 'left', fontSize: '0.85rem' }}>
@@ -96,7 +96,7 @@ export default function PrincipalMessage() {
                 </p>
                 <p style={{ marginTop: '1.5rem' }}>
                   Warm Regards,<br /><br />
-                  <strong>Dr. M. Hema Nalini, M.Com., M.Phil., B.Ed., SLET, Ph.D.</strong><br />
+                  <strong>Mr. Bala subramaniyam, M.A., M.Phil., NET, Ph.D.</strong><br />
                   Principal, Government Arts and Science College, Tharagampatti
                 </p>
               </div>

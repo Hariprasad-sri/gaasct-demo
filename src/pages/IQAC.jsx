@@ -3,7 +3,7 @@ import { Award, CheckSquare, Users, FileDown } from 'lucide-react';
 
 export default function IQAC() {
   const members = [
-    { name: 'Dr. M. Hema Nalini', designation: 'Principal', role: 'Chairperson' },
+    { name: 'Mr. Bala subramaniyam', designation: 'Principal', role: 'Chairperson' },
     { name: 'Mr. R. Manivasagan', designation: 'Assistant Professor & Head, Computer Science', role: 'IQAC Coordinator' },
     { name: 'Dr. J. Sathiyaraj', designation: 'Assistant Professor & Head, Mathematics', role: 'Administrative Officer' },
     { name: 'Dr. G. S. Balakrishnan', designation: 'Assistant Professor & Head, Commerce', role: 'Administrative Officer' },
